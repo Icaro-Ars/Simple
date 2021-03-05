@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background: white;
+    text-align: center;
+    line-height: 0;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+  
+}
+#p1{
+    line-height: 1.25em;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    left: 50%;
+    transform: translate(-50%, -5px);
+  
+  }
+  span{
+    font-size: 2em;
+  }
+  #logo{
+        display: inline;
+
+        margin:5px 20px 0 20%;
+  }
+  #logo-img{
+    width:50px;
+    height:50px;
+  }
+  #buy{
+    display: inline;
+    position: absolute;
+    right: 20%;
+    width:50px;
+    height:50px;
+    margin:5px 20px 0 20px;
+  }
+  #baner{
+    width: 100%;
+    height: clamp(30em, 39vw, 60em);
+  }
+  #imgbaner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:40px;
+    padding:1em 0 0 0   em;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 0 0 5px 0;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+#text{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom:1px solid ;
+    color:#888;
+    text-align:center;
+    margin-bottom: 5em;
+}
+#submit,#reset{
+    background: none;
+    border:none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color:#fff;
+    padding: 5px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+#submit:hover,#reset:hover{
+    background:rgba(255, 255, 255, 0.377);
+
+}
+#footer{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  
+  
+    background: white;
+    text-align: center;
+    line-height: 15px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+  }
+  #text{
+    margin-top:20px;
+  }
+  #home,#info,#email{
+    font-family: 'Roboto Slab', serif;
+    /* padding: 5px 0px 0 0px; */
+    margin: 5px 15px 0px 15px;
+    display:inline-block;
+    text-align:center;
+  }
+  #home-img,#info-img,#email-img {
+    width: 50px;
+    height: 50px;
+  }
